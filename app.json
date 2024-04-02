@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "login-register-ui",
-    "slug": "login-register-ui",
+    "name": "blaze",
+    "slug": "blaze",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
