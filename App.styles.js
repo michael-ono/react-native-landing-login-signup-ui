@@ -107,7 +107,8 @@ export const styles = StyleSheet.create({
         marginHorizontal: 9,
         marginVertical: 20,
         padding: 20,
-        alignItems: "center"
+        alignItems: "center",
+        paddingTop: 110
     },
     signupText1: {
         fontSize: 34,
@@ -122,6 +123,19 @@ export const styles = StyleSheet.create({
         textAlign: "center"
     },
     signupText3: {
+        fontSize: 16,
+        color: COLORS.black,
+        paddingTop: 50,
+        textAlign: "center"
+    },
+    loginText1: {
+        fontSize: 34,
+        fontWeight: "bold",
+        color: COLORS.welcomePrimary,
+        textAlign: "center",
+        paddingBottom: 25
+    },
+    loginText2: {
         fontSize: 16,
         color: COLORS.black,
         paddingTop: 50,
