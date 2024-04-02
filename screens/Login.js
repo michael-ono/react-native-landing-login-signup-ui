@@ -15,7 +15,7 @@ const Login = ({ navigation }) => {
   
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: COLORS.grey}}>
-      <View style={styles.signupView}>
+      <View style={styles.loginView}>
 
         <View style={{marginVertical: 20, paddingTop: 20 }}>
           <Text style={styles.loginText1}>Welcome back</Text>

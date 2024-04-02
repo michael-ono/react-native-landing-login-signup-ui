@@ -108,7 +108,7 @@ export const styles = StyleSheet.create({
         marginVertical: 20,
         padding: 20,
         alignItems: "center",
-        paddingTop: 110
+        paddingTop: 30
     },
     signupText1: {
         fontSize: 34,
@@ -127,6 +127,14 @@ export const styles = StyleSheet.create({
         color: COLORS.black,
         paddingTop: 50,
         textAlign: "center"
+    },
+    loginView: {
+        flex: 1,
+        marginHorizontal: 9,
+        marginVertical: 20,
+        padding: 20,
+        alignItems: "center",
+        paddingTop: 40
     },
     loginText1: {
         fontSize: 34,
