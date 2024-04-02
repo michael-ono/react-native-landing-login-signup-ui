@@ -10,12 +10,12 @@ export const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     imageContainer1: {
-        height: 70,
-        width: 70,
+        height: 60, //img 2
+        width: 60,
         borderRadius: 20,
         position: "absolute",
         top: 35,
-        left: 45,
+        left: 15,
         transform: [
           { translateX: 50 },
           { translateY: 50 },
@@ -36,8 +36,8 @@ export const styles = StyleSheet.create({
         ]
     },
     imageContainer3a: {
-        height: 50,
-        width: 50,
+        height: 30, //img 1
+        width: 30,
         borderRadius: 20,
         position: "absolute",
         top: -10,
@@ -49,7 +49,7 @@ export const styles = StyleSheet.create({
         ]
     },
     imageContainer3b: {
-        height: 90,
+        height: 90, //ing 3
         width: 90,
         borderRadius: 20,
         position: "absolute",
@@ -103,6 +103,55 @@ export const styles = StyleSheet.create({
         width: "100%"
     },
     signupView: {
-        padding: 20
+        flex: 1,
+        marginHorizontal: 9,
+        marginVertical: 20,
+        padding: 20,
+        alignItems: "center"
+    },
+    signupText1: {
+        fontSize: 34,
+        fontWeight: "bold",
+        color: COLORS.welcomePrimary,
+        textAlign: "center",
+        paddingBottom: 25
+    },
+    signupText2: {
+        fontSize: 16,
+        color: COLORS.black,
+        textAlign: "center"
+    },
+    signupText3: {
+        fontSize: 16,
+        color: COLORS.black,
+        paddingTop: 50,
+        textAlign: "center"
+    },
+    signupTextEmail: {
+        fontSize: 16,
+        fontWeight: '400',
+    },
+    inputContainer: {
+        width: "100%",
+        height: 52,
+        flexDirection: "row",
+        borderColor: '#adb5bd',
+        borderWidth: 1,
+        borderRadius: 8,
+        alignItems: "center",
+        justifyContent: "center",
+        paddingLeft: 22,
+        backgroundColor: COLORS.white,
+        paddingRight: 40
+    },
+    inputContainerTextInput: {
+        width: "100%"
+    },
+    inputContainerOuter: {
+        gap: 28,
+        marginVertical: 20,
+        display: "flex",
+        width: "100%"
     }
+
   });

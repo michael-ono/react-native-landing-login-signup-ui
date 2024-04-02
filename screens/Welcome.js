@@ -14,7 +14,7 @@ const Welcome = ({ navigation }) => {
       style={{
         flex: 1
       }}
-      colors={[COLORS.secondary, COLORS.primary]}
+      colors={[COLORS.welcomePrimary, COLORS.secondary]}
     >
       <SafeAreaView style={{flex: 1}}>
         <View>
