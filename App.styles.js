@@ -174,6 +174,15 @@ export const styles = StyleSheet.create({
         marginVertical: 20,
         display: "flex",
         width: "100%"
-    }
-
+    },
+    homeView: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: COLORS.black
+    },
+    homeText: {
+        fontSize: 70,
+        color: '#f9844a',
+    } 
   });

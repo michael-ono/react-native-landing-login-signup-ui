@@ -46,7 +46,12 @@ const Login = ({ navigation }) => {
 
         </View>
 
-        <Button style={{backgroundColor: COLORS.welcomePrimary, borderColor: COLORS.welcomePrimary}} title="Sign In" filled/>
+        <Button 
+          style={{backgroundColor: COLORS.welcomePrimary, borderColor: COLORS.welcomePrimary}} 
+          title="Sign In" 
+          onPress={() => navigation.navigate("Home")} 
+          filled
+        />
 
         <Text 
           style={styles.loginText2}

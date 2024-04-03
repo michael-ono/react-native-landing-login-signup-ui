@@ -59,7 +59,12 @@ const Signup = ({ navigation }) => {
           </View>
         </View>
 
-        <Button style={{backgroundColor: COLORS.welcomePrimary, borderColor: COLORS.welcomePrimary}} title="Sign Up" filled/>
+        <Button 
+          style={{backgroundColor: COLORS.welcomePrimary, borderColor: COLORS.welcomePrimary}} 
+          title="Sign Up"
+          onPress={() => navigation.navigate("Home")}
+          filled
+        />
 
         <Text 
           style={styles.signupText3}
