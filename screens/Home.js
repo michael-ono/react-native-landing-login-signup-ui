@@ -4,7 +4,7 @@ import { View, Text, Image, SafeAreaView, Animated } from 'react-native';
 import COLORS from '../constants/colors';
 import { styles } from '../App.styles';
 
-const Home = ({ navigation }) => {
+const Home = () => {
 
   return (
     // <LinearGradient

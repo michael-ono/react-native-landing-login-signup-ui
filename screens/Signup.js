@@ -62,7 +62,7 @@ const Signup = ({ navigation }) => {
         <Button 
           style={{backgroundColor: COLORS.welcomePrimary, borderColor: COLORS.welcomePrimary}} 
           title="Sign Up"
-          onPress={() => navigation.navigate("Home")}
+          onPress={() => navigation.navigate("ConfirmEmail")}
           filled
         />
 

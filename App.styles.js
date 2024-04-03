@@ -184,5 +184,16 @@ export const styles = StyleSheet.create({
     homeText: {
         fontSize: 70,
         color: '#f9844a',
-    } 
+    },
+    confirmEmailView: {
+        flex: 1,
+        alignItems: "center",
+        backgroundColor: COLORS.black,
+        paddingVertical: 140
+    },
+    confirmEmailText: {
+        fontSize: 26,
+        color: '#f9844a',
+        paddingBottom: 40
+    }
   });
