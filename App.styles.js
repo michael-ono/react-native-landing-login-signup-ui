@@ -183,17 +183,17 @@ export const styles = StyleSheet.create({
     },
     homeText: {
         fontSize: 70,
-        color: '#f9844a',
+        color: COLORS.welcomePrimary,
     },
     confirmEmailView: {
         flex: 1,
         alignItems: "center",
-        backgroundColor: COLORS.black,
+        backgroundColor: COLORS.grey,
         paddingVertical: 140
     },
     confirmEmailText: {
         fontSize: 26,
-        color: '#f9844a',
-        paddingBottom: 40
+        color: COLORS.welcomePrimary,
+        paddingBottom: 10
     }
   });
