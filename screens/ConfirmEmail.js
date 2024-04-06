@@ -26,7 +26,7 @@ const ConfirmEmail = ({ navigation }) => {
             </View>
             <Button
                 title="Join Now"
-                onPress={() => navigation.navigate("Home")}
+                onPress={() => navigation.navigate("Signup")}
                 style={{backgroundColor: COLORS.welcomePrimary, borderColor: COLORS.welcomePrimary}}
                 filled
             />
