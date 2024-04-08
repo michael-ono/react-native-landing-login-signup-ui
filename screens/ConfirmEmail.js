@@ -11,7 +11,7 @@ const ConfirmEmail = ({ navigation }) => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <View style={styles.confirmEmailView}>
-        <Text style={styles.confirmEmailText}>Confirm your email address</Text>
+        <Text style={styles.confirmEmailText}>Kindly confirm your email address</Text>
         <MaterialIcons name="mark-email-read" size={50} color={COLORS.welcomePrimary} />
 
         <View style={{flex: 1, width: '100%', paddingHorizontal: 50}}>
