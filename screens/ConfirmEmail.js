@@ -25,10 +25,10 @@ const ConfirmEmail = ({ navigation }) => {
               </View>
             </View>
             <Button
-                title="Join Now"
-                onPress={() => navigation.navigate("Signup")}
-                style={{backgroundColor: COLORS.welcomePrimary, borderColor: COLORS.welcomePrimary}}
-                filled
+              title="Join Now"
+              onPress={() => navigation.navigate("Home")}
+              style={{backgroundColor: COLORS.welcomePrimary, borderColor: COLORS.welcomePrimary}}
+              filled
             />
         </View>
 
