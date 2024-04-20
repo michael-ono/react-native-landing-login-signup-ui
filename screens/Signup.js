@@ -18,7 +18,7 @@ const Signup = ({ navigation }) => {
       <View style={styles.signupView}>
 
         <View style={{marginVertical: 20, paddingTop: 20 }}>
-          <Text style={styles.signupText1}>Create Account</Text>
+          <Text style={styles.signupText1}>Create new Account</Text>
           <Text style={styles.signupText2}>Create an account so that you can connect with your friends</Text>
         </View>
 
